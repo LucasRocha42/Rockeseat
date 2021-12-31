@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
 }
@@ -16,10 +16,13 @@ body{
     margin-top: 100px;
 }
 .image img {
-    display: inline-block;
-    width:50%;
-    border-radius: 50% ;
-    box-shadow: 3px 3px 3px 3px white ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
     
 }
 p{
@@ -47,3 +50,102 @@ p{
 
 
 }
+*/
+* {
+    background-size: 1440px 1024px;
+    background-color: rgba(250, 247, 253, 1);
+    margin: 0;
+    } 
+    
+    body {
+    font-family: 'Poppins';
+    }
+    
+    a {
+    text-decoration: none;
+    color: rgba(187, 153, 221, 1);
+    font-style: normal;
+    
+    }
+    .fotoDePerfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    }
+    
+    .borderEllipsis {
+    border-radius: 50%;
+    border-color: rgba(187, 153, 221, 1);
+    max-width: 213px;
+    max-width: 213px;
+    margin-left: 622px;
+    margin-top: 201px;
+    border-style: solid;
+    }
+    
+    .instagram {
+    margin-left: 672px;
+    }
+    
+    /*.socialContainer{
+    margin-left: 556px;
+    margin-top: 486px;
+    }*/
+    
+    .link1 , .link2, .link3 , .link4{
+    border: solid rgba(187, 153, 221, 1);
+    margin-left: 556px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: calc(486px - 33);
+    min-width: 326px;
+    min-height: 32px;
+    padding: 16px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+    }
+    
+    
+    .link1{
+    margin-top: 33px;
+    padding: 12px 13px;
+    font: 600 bold;
+    
+    }
+    
+    .link2{
+    padding: 12px 13px;
+    font: 600 bold;
+    margin-bottom: 16px;
+    }
+    
+    
+    .link3{
+    padding: 12px 13px;
+    font: 600 bold;
+    }
+    
+    
+    .link4 {
+    padding: 12px 13px;
+    font: 600 bold;
+    
+    }
+    
+    .socialMediaBottom {
+    display: inline-flex;
+    margin-top: 68px;
+    margin-left: 650px;
+    margin-bottom: 22px;
+    }
+    
+    label + label {
+    margin-left: 29px;
+    
+    }
+   
