@@ -5,8 +5,7 @@
 }
 .b1{
     background-color: red;
-    position: relative;
-    right: 15px;
+    position: absolute;
     
 }
 .b2{
