@@ -67,11 +67,12 @@ p{
     font-style: normal;
     
     }
-    .fotoDePerfil{
+    .image{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 500px;
     padding-top: 6px;
     padding-left: 6px;
     padding-bottom: 6px;

@@ -1,0 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container .image{
+    position: relative;
+    left: 550px;
+    top: 100px;
+}

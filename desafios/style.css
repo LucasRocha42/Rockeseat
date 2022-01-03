@@ -1,19 +1,6 @@
-
-*{
-    width: 10px;
-    height: 10px;
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 15px;
 }
-.b1{
-    background-color: red;
-    position: absolute;
-    
-}
-.b2{
-    background-color: blue;
-    position: relative;
-    bottom: 13px;
-}
-.b3{
-    background-color: green;
-} 
-
