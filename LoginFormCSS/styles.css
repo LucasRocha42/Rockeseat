@@ -1,0 +1,49 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--form-background);
+    color: white;
+}
+.Form{
+    color: var(--primary-color);
+    text-align: left;
+    padding: 30px;
+    background-color: var(--text-base);
+    margin: 70px;
+    max-width: 200px;
+}
+.FormContent{
+    border: solid red 1px;
+    max-width: 200px;
+
+}
+.FormContent input{
+    display: block;
+    margin: 10px;
+    width: 90%;
+    border: none;
+}
+.button{
+    background-color: var(--text-title);
+    width: 90%;
+}
+.right{
+    background-image:url("images/images/side-image-2x.jpg");
+    background-image: no-repeat;
+    overflow: hidden;
+    float: right;
+    width: 100%;
+    
+}
