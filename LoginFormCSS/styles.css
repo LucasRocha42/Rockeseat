@@ -15,7 +15,7 @@
 
 
 body{
-    background-color: var(--form-background);
+    background-color: var(--background);
     color: white;
     background-image: url("images/images/side-image-2x.jpg");
     background-repeat: no-repeat;
@@ -27,25 +27,58 @@ body{
      */
 }
 .Form{
-    color: var(--primary-color);
+    color: var(--text-base);
     text-align: left;
     padding: 30px;
-    background-color: var(--text-base);
+    background-color: var(--form-background);
     margin: 70px;
-    max-width: 200px;
+    max-width: 300px;
 }
+.Form p {
+    margin-bottom: 15px;
+}
+.Form h3{
+    color: var(--text-title);
+    font-size:20px  ;
+}
+
 .FormContent{
-    max-width: 200px;
+    max-width: 300px;
     justify-content: left;
 
 }
 .FormContent input{
     display: block;
-    margin: 10px;
+    margin: 15px;
     width: 90%;
-    border: none;
+    border: var(--text-base) solid 1px; 
+    border-radius: 5%;
 }
 .button{
     background-color: var(--text-title);
     width: 90%;
+}
+h3{
+    display: inline;
+}
+fieldset{
+    border: none;
+}
+
+.header img{
+    width: 20px;
+}
+.senha {
+    background-image: url(/LoginFormCSS/images/images/lock.svg);
+    background-repeat: no-repeat;
+    padding: 5px;
+    background-image: url(/LoginFormCSS/images/images/lock.svg);
+    background-position: left;
+    background-color: var(--form-background);
+}
+.email { 
+    background-image: url(/LoginFormCSS/images/images/mail.svg);
+    background-repeat: no-repeat;
+    padding: 5px;
+    background-color: var(--form-background);
 }
