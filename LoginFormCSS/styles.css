@@ -17,7 +17,7 @@
 body{
     background-color: var(--background);
     color: white;
-    background-image: url("images/images/side-image-2x.jpg");
+    /* background-image: url("images/images/side-image-2x.jpg"); */
     background-repeat: no-repeat;
     background-size: 50%  ;
     background-position: top right  ;
@@ -27,24 +27,31 @@ body{
      */
 }
 .Form{
+    position: relative;
+    left: 50px;
+    bottom: -50px;
     color: var(--text-base);
     text-align: left;
     padding: 30px;
     background-color: var(--form-background);
     margin: 70px;
-    max-width: 300px;
+    max-width: 500px;
+    
 }
 .Form p {
+    display: flex;
     margin-bottom: 15px;
 }
 .Form h3{
+    
     color: var(--text-title);
     font-size:20px  ;
 }
 
 .FormContent{
-    max-width: 300px;
-    justify-content: left;
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
 
 }
 .FormContent input{
@@ -81,4 +88,10 @@ fieldset{
     background-repeat: no-repeat;
     padding: 5px;
     background-color: var(--form-background);
+}
+.button{
+    background-color: var(--primary-color);
+    width: 18em; 
+    height: 3em;
+    border-radius: 5%;
 }
