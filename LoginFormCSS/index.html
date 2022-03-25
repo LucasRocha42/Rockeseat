@@ -9,45 +9,48 @@
 </head>
 
 <body>
-    <div class="left">
-        <div class="header">
-            <img src="images/images/favicon.ico" alt="">
-            <h3>Comp.In</h3>
-        </div>
-        <div class="Form">
-            <div class="FormContent">
-                <form action="">
-                    <img src="/LoginFormCSS/images/images/log-in.svg" alt="">           
-                    <h3>Faça seu login</h3>
-                    <p>Lorem ipsum dolor sit </p>
-                    <fieldset>
-                        <legend></legend>
+   <div class="flex-container">
+       <header class="header">
+           <a href="/"><img src="images/images/logo.svg" alt="logo" ></a>
+       </header>
+       
+       <div class="form-container">
+           <div class="flex-title">
+             <img src="images/images/log-in.svg" alt="logo">
+             <p>Fa;a seu login</p>
+           </div> 
+           <p>Entre com suas informações de cadastros</p> 
+                    <div class="FormConte">
+                        <form action="">
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input class="form-input" id="email" type="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="passaword">Senha</label><br>
+                                <div class="passaword-conteiner">
+                                    <input type="passaword" placeholder="Digite sua senha" class="form-input">
+                                    <span class="eye-password"></span>
+                                </div>
 
-                        <label for="name">Email</label>
+                            </div>
+                            <label class="container" for="lembrar">Lembre-me
+                                <input id="lembrar" name="lembrar" type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
 
-                        <input type="email" id="name"  placeholder="Digite o email" class="email" autocomplete="email" autofocus  >
-<!-- disable/-readonly -value -form - 
-name -requied(obrigatorio) placehold-->
-
-                        <label for="senha" >Senha</label>
-
-                        <input type="password" placeholder="Digite sua senha" id="senha" class="senha">
-
-                        <label for="lembre">Lembrar da senha </label>
-                        <input type="checkbox" name="lembre" id="lembre">
-                        <button class="button" >Entrar</button>
-
-                    </fieldset>
-                </form>
-               
-            
-
-
+                            <span class="esqueci_password">Esqueci-minha senha
+                             </span>
+                             <br> 
+                             <input class="form-button" type="button" value="ENTRAR">
+                             <p>Não tem uma conta? <a href="/"><b>Registre-se</b></a></p>
+                        </form>
+                    </div>
             </div>
-        </div>   
-    </div>
-
-    
-
+        </div>
+        <div class="image-container">
+            
+        </div>
 </body>
 </html>
