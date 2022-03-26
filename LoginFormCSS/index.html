@@ -7,50 +7,45 @@
     <link href="styles.css" rel="stylesheet">
     <title>Login</title>
 </head>
-
 <body>
+    <div class="header">
+        <header>
+            <a href="/" ></a><img src="images/images/logo.svg" alt=""></a>
+        </header>
    <div class="flex-container">
-       <header class="header">
-           <a href="/"><img src="images/images/logo.svg" alt="logo" ></a>
-       </header>
-       
-       <div class="form-container">
-           <div class="flex-title">
-             <img src="images/images/log-in.svg" alt="logo">
-             <p>Fa;a seu login</p>
-           </div> 
-           <p>Entre com suas informações de cadastros</p> 
-                    <div class="FormConte">
-                        <form action="">
-                            <div>
-                                <label for="email">Email</label><br>
-                                <input class="form-input" id="email" type="email" placeholder="Digite seu e-mail">
-                            </div>
-                            <br>
-                            <div>
-                                <label for="passaword">Senha</label><br>
-                                <div class="passaword-conteiner">
-                                    <input type="passaword" placeholder="Digite sua senha" class="form-input">
-                                    <span class="eye-password"></span>
-                                </div>
-
-                            </div>
-                            <label class="container" for="lembrar">Lembre-me
-                                <input id="lembrar" name="lembrar" type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-
-                            <span class="esqueci_password">Esqueci-minha senha
-                             </span>
-                             <br> 
-                             <input class="form-button" type="button" value="ENTRAR">
-                             <p>Não tem uma conta? <a href="/"><b>Registre-se</b></a></p>
-                        </form>
-                    </div>
-            </div>
         </div>
-        <div class="image-container">
-            
+        <div class="form">
+            <form action="">
+                <div class="title">
+                    <img src="images/images/log-in.svg">
+                    <h3>Faça seu login</h3>
+                </div>
+                <div class="email">
+                    <p>Entre com suas informações de cadastro.</p>
+                    <label for="e-mail">Email</label><br>
+                    <input type="email" id="e-mail" placeholder="Digite seu email" autofocus >
+                </div>
+                
+                <div class="password">
+                             <label for="password">Senha</label> <br>
+                            <input type="password" id="password" placeholder="Digite sua senha">
+                            <span class="eye-password"></span>
+                </div>
+                <br>
+                <label for="lembre" class="container">
+                    <input type="checkbox" id="lembre" > Lembre-me
+                    <a href="/" ><span>Esqueci minha senha</span> </a>
+                </label>
+                <br>
+                <br>
+                <input type="button" value="ENTRAR" >
+                <p>Não tem conta? <a href="/" >Registe-se</a>  </p>
+                
+            </form>
         </div>
+
+
+
+   </div>
 </body>
 </html>

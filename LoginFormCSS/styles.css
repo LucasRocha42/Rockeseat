@@ -1,8 +1,102 @@
 :root {
     --text-base: #afb6c2;
-  --text-title: #d4ccb6;
-  --background: #191816;
-  --text-button: #473404;
-  --form-background: #24221f;
-  --primary-color: #ffc632;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    /*    font Weight: 400, 500 e 600;
+    font-family: Roboto
+    Font Weight: 400 e 500 */
 }
+body{
+    background-color: var(--background);
+    font-family: Poppins;
+}
+.header{
+    position: relative;
+    justify-content: center;
+    margin-right: 80px;
+}
+.title {
+    display: flex;
+    /* padding-top: 20px; */
+    color: var(--text-base);
+    margin-bottom: 10px;
+}
+p{
+    color:var(--text-base);
+    background-color: var(--form-background) ;
+    margin-bottom: 15px;
+}
+.form{
+    justify-content: center;
+    text-align:left;
+    padding: 50px;
+    margin: 50px;
+    background-color: var(--form-background);
+    max-width: 300px;
+}
+.email{
+    color: var(--text-base);
+    background-color: var(--form-background);
+}
+.email input{
+    color:white;
+    padding: 5px;
+    background-image: url(images/images/mail.svg);
+    background-repeat: no-repeat;
+    background-position:7px ;
+    background-size: 15px;
+    padding-left: 25px;
+    background-color: var(--form-background);
+    border: var(--text-base) 1px solid ;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+input[type=email]:focus{
+    border: 2px solid  var(--primary-color) ;
+    background-image: url(images/images/mail-focus.svg);
+}
+.password{
+    color: var(--text-base);
+    background-color: var(--form-background);
+}
+.password input{
+    background-color: var(--form-background);
+    color:white;
+    padding: 5px;
+    background-image: url(images/images/lock.svg);
+    background-repeat: no-repeat;
+    background-position:7px ;
+    background-size: 15px;
+    padding-left: 25px;
+    border: var(--text-base) 1px solid;
+}
+input[type=password]:focus{
+    background-image: url(images/images/lock-focus.svg);
+    border: 2px solid var(--primary-color)
+}
+.container {
+    display: inline;
+    color: var(--text-base);
+    font-size: 16px;
+
+}
+.container input[type=checkbox]{
+    background-color: var(--text-base);
+
+
+}
+.conteiner input {  
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+}
+
