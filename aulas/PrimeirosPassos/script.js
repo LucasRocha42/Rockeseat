@@ -1,7 +1,9 @@
-// function express
-// passing
-const sum = function(number1, numbre2){
-    console.log(number1 + numbre2)
+function parimp(n){
+    if (n % 2== 0){
+        return 'par'
+    }else{
+        return 'impar'
+    }
 }
-// passing values as arg
-sum(2, 3 )
+let res = parimp(3)
+console.log(res)
