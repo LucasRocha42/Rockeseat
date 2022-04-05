@@ -1,7 +1,15 @@
-let temperature = 36.9 
-let highTemperature =  temperature > 37.5 
-let mediumTemperature = temperature >= 36.7 && 38.8; 
 
-if ( highTemperature) {
-    console.log('Febre alta')
+
+let expression = 1
+
+switch(expression){
+    case 1:
+        console.log('Olá')
+    break
+    case 2: 
+        console.log('2')
+    break
+    default:
+        console.log('ruim')
+        break
 }
