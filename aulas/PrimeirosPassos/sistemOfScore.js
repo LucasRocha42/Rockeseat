@@ -1,6 +1,6 @@
 
 
-
+/* 
 
 
 
@@ -32,4 +32,4 @@ console.log(getScore(90))
 console.log(getScore(80))
 console.log(getScore(70))
 console.log(getScore(60))
-console.log(getScore(50))
+console.log(getScore(50)) */
