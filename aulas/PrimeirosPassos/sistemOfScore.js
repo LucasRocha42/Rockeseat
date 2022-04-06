@@ -1,5 +1,65 @@
 
 
+
+
+
+
+
+
+function school (score){
+
+   let resultFinnaly;
+
+    scoreA = score >= 90 && score <=100 
+    scoreB = score >= 80 && score <= 90
+    scoreC = score >= 70 && score <= 80
+    scoreD = score >= 60 && score <= 70
+    scoreF = score < 60 && score >= 0
+
+    if (scoreA) {
+        resultFinnaly = " Nota A"
+    } else if (scoreB){
+        resultFinnaly =" Nota B"
+    } else if (scoreC){
+        resultFinnaly = " Nota C"
+    } else if (scoreD){
+        resultFinnaly = " Nota D"
+    } else if (scoreF){
+        resultFinnaly = " Nota F"
+    }
+
+    return resultFinnaly;
+}
+
+console.log(school(100))
+console.log(school(90))
+console.log(school(70))
+console.log(school(60))
+console.log(school(25))
+console.log(school(100))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 

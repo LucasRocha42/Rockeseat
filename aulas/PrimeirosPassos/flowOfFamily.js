@@ -1,5 +1,76 @@
 
 
+
+
+
+
+
+
+
+// Family 
+let family = {
+    incomes: [200.5,69.2,562,460],
+    expenses: [ 561.8, 879, 200, 60] 
+} 
+
+function sum (array) {
+     // Somar as despesas   
+     // Criando um loop encima das propriedades do objeto
+     let total = 0;
+     for (let value of array){
+         total += value
+     }
+        return total
+}
+
+function balanceFamily(){
+
+    const calculateExpenses = sum(family.expenses)
+    const calculateIncomes = sum (family.incomes)
+
+    const gastos = calculateIncomes -  calculateExpenses  ;
+
+    let itsok = gastos >= 0 
+
+    let balanceText = '  Negativo'
+
+    if (itsok){
+        balanceText = " Positivo"
+    }
+    console.log( "Seu saldo é " +  gastos.toFixed(2) +  balanceText)
+}
+
+ balanceFamily()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
 let family = {
     incomes: [2000, 20.3, 50, 533],
     expenses: [300.2 , 526, 546.6, 200]
